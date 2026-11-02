@@ -1,0 +1,24 @@
+# --- Matériel cryptographique : JAMAIS committé ---
+secrets/
+*.key
+*.pem
+*.p8
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.der
+id_rsa*
+id_ecdsa*
+id_ed25519*
+ssh_host_*
+*.kem
+*.sk
+# --- Captures et résultats bruts ---
+*.pcap
+*.pcapng
+scans/raw/
+# --- Divers ---
+.env
+__pycache__/
+.venv/
